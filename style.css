@@ -71,7 +71,20 @@ h1 {
     font-size: 1.125rem;
 }
 
+@media (max-width: 1050px) {
+    html {
+        font-size: 80%;
+    }
+}
+@media (max-width: 750px) {
+    html {
+        font-size: 65%;
+    }
+}
 @media (max-width: 480px) {
+    html {
+        font-size: 100%;
+    }
     body {
         background-size: cover;
         background-position: 25% 50%;
